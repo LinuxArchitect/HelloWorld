@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "helloworld",
+	"version": "${version}",
+	"name": "Hello World",
+	"description": "This is my first mod of this version of Minecraft",
+	"authors": [
+		"George Boyce"
+	],
+	"contact": {
+		"homepage": "https://themc.network/MinecraftMods/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/helloworld/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"network.themc.helloworld.HelloWorld"
+		],
+		"client": [
+			"network.themc.helloworld.HelloWorldClient"
+		],
+		"fabric-datagen": [
+			"network.themc.helloworld.HelloWorldDataGenerator"
+		]
+	},
+	"mixins": [
+		"helloworld.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.10",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
