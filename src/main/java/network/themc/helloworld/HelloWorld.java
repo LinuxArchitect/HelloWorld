@@ -2,6 +2,7 @@ package network.themc.helloworld;
 
 import net.fabricmc.api.ModInitializer;
 
+import network.themc.helloworld.block.ModBlocks;
 import network.themc.helloworld.item.ModItemGroups;
 import network.themc.helloworld.item.ModItems;
 import org.slf4j.Logger;
@@ -16,5 +17,6 @@ public class HelloWorld implements ModInitializer {
 		LOGGER.info("Hello Fabric world!");
 		ModItemGroups.registerItemGroups();
 		ModItems.registerItems();
+		ModBlocks.registerBlocks();
 	}
 }

@@ -21,7 +21,7 @@ public class ModItems {
         return Registry.register(Registries.ITEM, new Identifier(HelloWorld.MOD_ID, name), item);
     }
     public static void registerItems() {
-        HelloWorld.LOGGER.info("Registering Mod Items for " + HelloWorld.MOD_ID);
+        HelloWorld.LOGGER.info("Registering Items for " + HelloWorld.MOD_ID);
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientItemGroup);
     }
 }

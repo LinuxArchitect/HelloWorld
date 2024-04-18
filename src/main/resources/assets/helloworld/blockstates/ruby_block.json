@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "helloworld:block/ruby_block"
+    }
+  }
+}
