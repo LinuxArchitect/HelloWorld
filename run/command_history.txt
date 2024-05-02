@@ -1,2 +1,8 @@
 /gamemode creative
 /time set noon
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/time set day
+/gamerule doDaylightCycle false
+/gamemode creative

@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "helloworld:ruby_block",
+    "helloworld:raw_ruby_block",
+    "helloworld:ruby_ore",
+    "helloworld:deepslate_ruby_ore",
+    "helloworld:nether_ruby_ore",
+    "helloworld:end_stone_ruby_ore"
+  ]
+}
